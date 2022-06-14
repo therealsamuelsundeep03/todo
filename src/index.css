@@ -1,0 +1,38 @@
+.body{
+  position: relative;
+  font-family: cursive;
+  background: linear-gradient(to right, rgb(52, 148, 230), rgb(236, 110, 173));
+}
+.card{
+  width: 600px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px 30px ;
+}
+li{
+  text-decoration: none;
+  float: left;
+  padding-right: 30px;
+  list-style-type: none;
+}
+.a{
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+}
+.complete{
+  text-decoration: line-through;
+}
+
+.checklist{
+  display: flex;
+  line-height: 3rem;
+  margin-left: 2rem;
+}
+.checklist > input{
+  margin-right: 3rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
